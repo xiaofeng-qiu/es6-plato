@@ -48,7 +48,7 @@
     "analyze"
   ],
   "dependencies": {
-    "escomplex-js": "git+https://github.com/the-simian/escomplex-js.git",
+    "escomplex-js": "https://github.com/the-simian/escomplex-js/tarball/master",
     "posix-getopt": "~1.1.0",
     "lodash": "~2.4.1",
     "fs-extra": "~0.15.0",
