@@ -6,6 +6,7 @@ After seeing it was unpublished on npm and also wanting to add more features, I 
 
 Eventually I would like to make something that is similar to this, but provides more feedback to the developer, so they can integrate complexity reporting more fluidly into their CI pipeline, but for now, just a working version of plato that also works on es6/React projects is goal #1.
 
+This is still under development, and is published with an alpha tag.
 
 # plato
 Visualize JavaScript source complexity with plato.
@@ -80,7 +81,7 @@ plato.inspect(files, outputDir, {}, callback);
 ## Data sources
 
   - Complexity data by [Phil Booth](https://github.com/philbooth)'s [complexity-report](https://github.com/philbooth/complexityReport.js)
-  - Lint data from [jshint](https://github.com/jshint/jshint/)
+  - Lint data from [jshint](https://github.com/jshint/jshint/) NOTE: SWAP FOR ESLINT!
 
 ## Contributors
   - [Jarrod Overson](https://github.com/jsoverson)
