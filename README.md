@@ -95,3 +95,6 @@ plato.inspect(files, outputDir, {}, callback);
 ## License
 Copyright (c) 2012 Jesse Harlin
 Licensed under the MIT license.
+
+Based on a fork by
+Jarrod Overson
