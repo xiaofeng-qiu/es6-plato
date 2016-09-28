@@ -5,7 +5,8 @@
 Visualize JavaScript source complexity with plato. Based on the older es5 plato.
 
 
-NOTE: :warning: This Project is in currently Alpha :warning:
+NOTE: This Project is in currently :warning: Alpha :warning:
+And still under development;
 
 ## Installation
 Install the module with: `npm install --save es6-plato`
@@ -146,13 +147,8 @@ plato -r -d report src
 - 1.0.2-alpha , Project works with es6 and eslint
 
 #About
-
 This is currently a reimplementation of the older  plato, and started as a fork from https://github.com/deedubs/es6-plato, but has since been heavily modified.
-
 After seeing it was unpublished on npm and also wanting to add more features, I Asked if it [would be alright for me to publish and continue the work.](https://github.com/deedubs/es6-plato/issues/4)
-
-This is still under development, and is published with an :exclamation: alpha tag. :exclamation:
-
 This project uses eslint, not jshint for default linting.
 
 ## License
