@@ -48,7 +48,7 @@
     "analyze"
   ],
   "dependencies": {
-    "escomplex": "2.0.0-alpha",
+    "escomplex-js": "https://github.com/the-simian/escomplex-js/tarball/master",
     "eslint": "^3.6.1",
     "fs-extra": "~0.15.0",
     "glob": "~4.3.5",
