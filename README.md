@@ -5,7 +5,11 @@
 Visualize JavaScript source complexity with plato.
 Based on the older es5 plato, this is a port to `es6` and `eslint`
 
-And still under development;
+And still under development.
+
+
+
+![dank-es6-nugs](https://cloud.githubusercontent.com/assets/954596/18904479/d67f8052-8523-11e6-9397-1af9e015f0e4.PNG)
 
 ## Installation
 Install the module with: `npm install --save es6-plato`
@@ -131,6 +135,8 @@ __Example__
 ```shell
 plato -r -d report src
 ```
+
+![class functions, ya'll](https://cloud.githubusercontent.com/assets/954596/18904476/d1a57302-8523-11e6-85df-b474be8c59a8.PNG)
 
 ## Data sources
   - Complexity from [typhonjs-escomplex](https://github.com/typhonjs-node-escomplex/typhonjs-escomplex)
