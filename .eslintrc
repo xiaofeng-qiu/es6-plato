@@ -15,6 +15,7 @@
   "globals": {
     "module" : true,
     "exports" : true,
+    "process" : true,
     "require" : true
   },
   "extends": "eslint:recommended",
