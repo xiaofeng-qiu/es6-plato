@@ -1,8 +1,8 @@
 {
   "name": "es6-plato",
   "description": "JavaScript source analysis and visualizer",
-  "version": "1.0.4-alpha",
-  "homepage": "https://github.com/es-analysis/plato",
+  "version": "1.0.5-alpha",
+  "homepage": "https://github.com/the-simian/es6-plato",
   "author": {
     "name": "Jessse Harlin",
     "email": "harlinjesse@gmail.com",
@@ -13,13 +13,13 @@
     "url": "https://github.com/the-simian/es6-plato"
   },
   "bugs": {
-    "url": "https://github.com/es-analysis/plato/issues"
+    "url": "https://github.com/the-simian/es6-plato/issues"
   },
   "bin": "bin/plato",
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/es-analysis/plato/blob/master/LICENSE-MIT"
+      "url": "https://raw.githubusercontent.com/the-simian/es6-plato/master/LICENSE-MIT"
     }
   ],
   "main": "lib/plato",
