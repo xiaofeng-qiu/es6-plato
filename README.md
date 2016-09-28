@@ -15,7 +15,7 @@ Visualize JavaScript source complexity with plato.
 ## Example report on popular projects
 
 ## Installation
-Install the module with: `npm install -g plato`
+Install the module with: `npm install --save es6-plato`
 
 ## Usage
 
@@ -51,26 +51,43 @@ plato -r -d report src
 ### From scripts
 
 ```
-var plato = require('plato');
 
-var files = [
-  'path/to/javascript/file1.js',
-  ...
-  'path/to/javascript/fileN.js'
-];
+//be sure and set your src, output, and any options.
+let src = './scripts/**/*.js';
+let outputDir = './artifacts/plato';
 
-var outputDir = './output/dir';
-// null options for this example
-var options = {
-  title: 'Your title here'
+let platoArgs = {
+  title: 'example',
+  eslint: {}
 };
 
-var callback = function (report){
-// once done the analysis,
-// execute this
-};
+//you can use the reports in the callback.
+function callback(reports){
+  let overview = plato.getOverviewReport(reports);
 
-plato.inspect(files, outputDir, {}, callback);
+  let {
+    total,
+    average
+  } = overview.summary;
+
+  let output = `total
+    ----------------------
+    eslint: ${total.eslint}
+    sloc: ${total.sloc}
+    maintainability: ${total.maintainability}
+    average
+    ----------------------
+    eslint: ${average.eslint}
+    sloc: ${average.sloc}
+    maintainability: ${average.maintainability}`;
+
+  console.log(output);
+}
+
+
+//usage is plato.inspect
+plato.inspect(src, outputDir, platoArgs, callback);
+
 ```
 
 ## Data sources
