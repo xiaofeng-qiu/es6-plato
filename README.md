@@ -161,6 +161,7 @@ plato -r -d report src
 - | 1.0.6-alpha | Use typhonjs-escomplex |
 - | 1.0.0       | Class methods parsed and evaluated correctly |
 - | 1.0.2       | Fix error when no callback supplied |
+- | 1.0.5       | Update dependencies; fix lodash; add summary display link |
 
 #About
 This is currently a reimplementation of the older  plato, and started as a fork from https://github.com/deedubs/es6-plato, but has since been heavily modified.
