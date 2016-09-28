@@ -63,45 +63,46 @@ plato.inspect(src, outputDir, platoArgs, callback);
 
 
 ```js
-
 let gulp = require('gulp');
 let plato = require('es6-plato');
 
 let src = './scripts/**/*.js';
 let outputDir = './artifacts/plato';
 
-let platoArgs = {
-  title: 'example',
-  eslint: {}
+
+let lintRules = {
+  'rules': {
+    'indent': [2,'tab'],
+    'quotes': [2,'single'],
+    'semi': [2,'always'],
+    'no-console' : [1],
+    'curly': ['error'],
+    'no-dupe-keys': 2,
+    'func-names': [1, 'always']
+  },
+  'env': {
+    'es6': true
+  },
+  'globals': {
+    'require' : true
+  },
+  'parserOptions' : {
+    'sourceType': 'module',
+    'ecmaFeatures': {
+      'jsx': true,
+      'modules': true
+    }
+  }
 };
 
-function analysis(){
-  function callback(reports){
-    let overview = plato.getOverviewReport(reports);
+let platoArgs = {
+    title: 'example',
+    eslint: {}
+};
 
-    let {
-      total,
-      average
-    } = overview.summary;
-
-    let output = `total
-      ----------------------
-      jshint: ${total.eslint}
-      sloc: ${total.sloc}
-      maintainability: ${total.maintainability}
-      average
-      ----------------------
-      jhint: ${average.eslint}
-      sloc: ${average.sloc}
-      maintainability: ${average.maintainability}`;
-
-    console.log(output);
-  }
-
-  plato.inspect(src, outputDir, platoArgs, callback);
-
+function analysis() {
+  return plato.inspect(src, outputDir, platoArgs);
 }
-
 
 gulp.task('analysis', analysis);
 
@@ -153,6 +154,7 @@ plato -r -d report src
 - | 1.0.2-alpha | Project works with es6 and eslint |
 - | 1.0.6-alpha | Use typhonjs-escomplex |
 - | 1.0.0       | Class methods parsed and evaluated correctly |
+- | 1.0.2       | Fix error when no callback supplied |
 
 #About
 This is currently a reimplementation of the older  plato, and started as a fork from https://github.com/deedubs/es6-plato, but has since been heavily modified.
