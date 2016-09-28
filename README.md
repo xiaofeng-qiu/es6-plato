@@ -134,7 +134,7 @@ plato -r -d report src
 ```
 
 ## Data sources
-  - Complexity data by a fork of [Phil Booth](https://github.com/philbooth)'s [escomplex-js](https://github.com/philbooth/escomplex-js)
+  - Complexity from [typhonjs-escomplex](https://github.com/typhonjs-node-escomplex/typhonjs-escomplex)
   - Lint data from [eslint](http://eslint.org/)
 
 ## Contributors
@@ -145,6 +145,7 @@ plato -r -d report src
 
 ## Release History
 - 1.0.2-alpha , Project works with es6 and eslint
+- 1.0.6-alpha , Use typhonjs-escomplex
 
 #About
 This is currently a reimplementation of the older  plato, and started as a fork from https://github.com/deedubs/es6-plato, but has since been heavily modified.
