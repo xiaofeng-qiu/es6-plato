@@ -95,9 +95,15 @@ let lintRules = {
   }
 };
 
+
+let complexityRules = {
+
+};
+
 let platoArgs = {
     title: 'example',
-    eslint: {}
+    eslint: lintRules,
+    complexity: complexityRules
 };
 
 function analysis() {
