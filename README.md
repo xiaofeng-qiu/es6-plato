@@ -6,7 +6,9 @@ After seeing it was unpublished on npm and also wanting to add more features, I 
 
 Eventually I would like to make something that is similar to this, but provides more feedback to the developer, so they can integrate complexity reporting more fluidly into their CI pipeline, but for now, just a working version of plato that also works on es6/React projects is goal #1.
 
-This is still under development, and is published with an alpha tag.
+This is still under development, and is published with an :exclamation: alpha tag. :exclamation:
+
+First order of business is to replace `jshint` with `eslint`, and also make sure the complexity analysis plays well with modern javascript.
 
 # plato
 Visualize JavaScript source complexity with plato.
