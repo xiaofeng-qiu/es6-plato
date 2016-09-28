@@ -144,8 +144,10 @@ plato -r -d report src
   - [David Linse](https://github.com/davidlinse)
 
 ## Release History
-- 1.0.2-alpha , Project works with es6 and eslint
-- 1.0.6-alpha , Use typhonjs-escomplex
+  | version     | update |
+- | 1.0.2-alpha | Project works with es6 and eslint |
+- | 1.0.6-alpha | Use typhonjs-escomplex |
+- | 1.0.0       | Class methods parsed and evaluated correctly |
 
 #About
 This is currently a reimplementation of the older  plato, and started as a fork from https://github.com/deedubs/es6-plato, but has since been heavily modified.
