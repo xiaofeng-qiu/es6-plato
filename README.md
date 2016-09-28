@@ -2,10 +2,9 @@
 
 
 # es6-plato
-Visualize JavaScript source complexity with plato. Based on the older es5 plato.
+Visualize JavaScript source complexity with plato.
+Based on the older es5 plato, this is a port to `es6` and `eslint`
 
-
-NOTE: This Project is in currently :warning: Alpha :warning:
 And still under development;
 
 ## Installation
@@ -153,6 +152,8 @@ plato -r -d report src
 This is currently a reimplementation of the older  plato, and started as a fork from https://github.com/deedubs/es6-plato, but has since been heavily modified.
 After seeing it was unpublished on npm and also wanting to add more features, I Asked if it [would be alright for me to publish and continue the work.](https://github.com/deedubs/es6-plato/issues/4)
 This project uses eslint, not jshint for default linting.
+
+I have switched to the [typhon-js](https://github.com/typhonjs-node-escomplex/typhonjs-escomplex) module since it properly parses classes.
 
 ## License
 Copyright (c) 2012 Jesse Harlin
