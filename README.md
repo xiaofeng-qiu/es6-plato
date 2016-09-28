@@ -5,9 +5,6 @@
 Visualize JavaScript source complexity with plato.
 Based on the older es5 plato, this is a port to `es6` and `eslint`
 
-And still under development.
-
-
 #The Report
 ![dank-es6-nugs](https://cloud.githubusercontent.com/assets/954596/18904556/3a81efea-8524-11e6-8588-ad8f5a51b001.PNG)
 
@@ -156,12 +153,13 @@ plato -r -d report src
   - [David Linse](https://github.com/davidlinse)
 
 ## Release History
-  | version     | update |
-- | 1.0.2-alpha | Project works with es6 and eslint |
-- | 1.0.6-alpha | Use typhonjs-escomplex |
-- | 1.0.0       | Class methods parsed and evaluated correctly |
-- | 1.0.2       | Fix error when no callback supplied |
-- | 1.0.5       | Update dependencies; fix lodash; add summary display link |
+| version     | update |
+|-------------|--------|
+| 1.0.2-alpha | Project works with es6 and eslint |
+| 1.0.6-alpha | Use typhonjs-escomplex |
+| 1.0.0       | Class methods parsed and evaluated correctly |
+| 1.0.2       | Fix error when no callback supplied |
+| 1.0.5       | Update dependencies; fix lodash; add summary display link |
 
 #About
 This is currently a reimplementation of the older  plato, and started as a fork from https://github.com/deedubs/es6-plato, but has since been heavily modified.
