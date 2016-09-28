@@ -8,7 +8,7 @@ Eventually I would like to make something that is similar to this, but provides 
 
 This is still under development, and is published with an :exclamation: alpha tag. :exclamation:
 
-First order of business is to replace `jshint` with `eslint`, and also make sure the complexity analysis plays well with modern javascript.
+This project uses eslint, not jshint for default linting.
 
 # plato
 Visualize JavaScript source complexity with plato.
@@ -35,8 +35,6 @@ Usage : plato [options] -d <output_dir> <input files>
       The output directory
   -r, --recurse
       Recursively search directories
-  -l, --jshint : String
-      Specify a jshintrc file for JSHint linting
   -t, --title : String
       Title of the report
   -D, --date : String
@@ -49,11 +47,6 @@ __Example__
 plato -r -d report src
 ```
 
-__Extended example__
-
-```
-plato -r -d report -l .jshintrc -t "My Awesome App" -x .json routes/*.js
-```
 
 ### From scripts
 
@@ -83,7 +76,7 @@ plato.inspect(files, outputDir, {}, callback);
 ## Data sources
 
   - Complexity data by [Phil Booth](https://github.com/philbooth)'s [complexity-report](https://github.com/philbooth/complexityReport.js)
-  - Lint data from [jshint](https://github.com/jshint/jshint/) NOTE: SWAP FOR ESLINT!
+  - Lint data from [eslint](http://eslint.org/)
 
 ## Contributors
   - [Jarrod Overson](https://github.com/jsoverson)
