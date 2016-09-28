@@ -4,6 +4,9 @@
 # es6-plato
 Visualize JavaScript source complexity with plato. Based on the older es5 plato.
 
+
+NOTE: :warning: This Project is in currently Alpha :warning:
+
 ## Installation
 Install the module with: `npm install --save es6-plato`
 
