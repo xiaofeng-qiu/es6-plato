@@ -44,7 +44,7 @@
   ],
   "dependencies": {
     "eslint": "^3.6.1",
-    "fs-extra": "^0.30.0",
+    "fs-extra": "^1.0.0",
     "glob": "^7.1.0",
     "lodash": "^4.16.2",
     "posix-getopt": "^1.2.0",
