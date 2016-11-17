@@ -80,9 +80,7 @@ let lintRules = {
   'env': {
     'es6': true
   },
-  'globals': {
-    'require' : true
-  },
+  'globals':['require'],
   'parserOptions' : {
     'sourceType': 'module',
     'ecmaFeatures': {
