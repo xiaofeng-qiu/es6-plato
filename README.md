@@ -162,6 +162,7 @@ plato -r -d report src
 | 1.0.8       | Fixes to eslint allowing for plugin usage. |
 | 1.0.9       | Update dependencies to latest versions |
 | 1.0.13      | Fix templates to work in some CI envs + add jsx support |
+| 1.0.14      | update dependencies in package.json |
 
 #About
 This is currently a reimplementation of the older  plato, and started as a fork from https://github.com/deedubs/es6-plato, but has since been heavily modified.
