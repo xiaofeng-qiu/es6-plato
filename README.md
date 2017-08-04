@@ -113,7 +113,7 @@ gulp.task('analysis', analysis);
 ### From the commandline
 
 ```sh
-Usage : plato [options] -d <output_dir> <input files>
+Usage : es6-plato [options] -d <output_dir> <input files>
   -h, --help
       Display this help text.
   -q, --quiet
@@ -135,7 +135,7 @@ Usage : plato [options] -d <output_dir> <input files>
 __Example__
 
 ```shell
-plato -r -d report src
+es6-plato -r -d report src
 ```
 
 ![class functions, ya'll](https://cloud.githubusercontent.com/assets/954596/18904476/d1a57302-8523-11e6-85df-b474be8c59a8.PNG)
