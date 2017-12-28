@@ -152,6 +152,7 @@ es6-plato -r -d report src
 | 1.0.13      | Fix templates to work in some CI envs + add jsx support                                          |
 | 1.0.14      | update dependencies in package.json                                                              |
 | 1.0.15      | update dependencies in package.json                                                              |
+| 1.0.16      | switch to globby, address Linux line endings                                                     |
 
 #About
 This is currently a reimplementation of the older plato, and started as a fork from https://github.com/deedubs/es6-plato, but has since been heavily modified.
