@@ -16,11 +16,11 @@ Install the module with: `npm install --save es6-plato`
 
 ```js
 //be sure and set your src, output, and any options.
-let src = './scripts/**/*.js';
-let outputDir = './artifacts/plato';
+let src = "./scripts/**/*.js";
+let outputDir = "./artifacts/plato";
 
 let platoArgs = {
-  title: 'example',
+  title: "example",
   eslint: {}
 };
 
@@ -51,28 +51,28 @@ plato.inspect(src, outputDir, platoArgs, callback);
 # Example Gulpfile
 
 ```js
-let gulp = require('gulp');
-let plato = require('es6-plato');
+let gulp = require("gulp");
+let plato = require("es6-plato");
 
-let src = './scripts/**/*.js';
-let outputDir = './artifacts/plato';
+let src = "./scripts/**/*.js";
+let outputDir = "./artifacts/plato";
 
 let lintRules = {
   rules: {
-    indent: [2, 'tab'],
-    quotes: [2, 'single'],
-    semi: [2, 'always'],
-    'no-console': [1],
-    curly: ['error'],
-    'no-dupe-keys': 2,
-    'func-names': [1, 'always']
+    indent: [2, "tab"],
+    quotes: [2, "single"],
+    semi: [2, "always"],
+    "no-console": [1],
+    curly: ["error"],
+    "no-dupe-keys": 2,
+    "func-names": [1, "always"]
   },
   env: {
     es6: true
   },
-  globals: ['require'],
+  globals: ["require"],
   parserOptions: {
-    sourceType: 'module',
+    sourceType: "module",
     ecmaFeatures: {
       jsx: true,
       modules: true
@@ -83,7 +83,7 @@ let lintRules = {
 let complexityRules = {};
 
 let platoArgs = {
-  title: 'example',
+  title: "example",
   eslint: lintRules,
   complexity: complexityRules
 };
@@ -92,7 +92,7 @@ function analysis() {
   return plato.inspect(src, outputDir, platoArgs);
 }
 
-gulp.task('analysis', analysis);
+gulp.task("analysis", analysis);
 ```
 
 ### From the commandline
@@ -153,6 +153,7 @@ es6-plato -r -d report src
 | 1.0.14      | update dependencies in package.json                                                              |
 | 1.0.15      | update dependencies in package.json                                                              |
 | 1.0.16      | switch to globby, address Linux line endings                                                     |
+| 1.0.17      | Explicitly add eslint-plugin-react and update the dependencies                                   |
 
 #About
 This is currently a reimplementation of the older plato, and started as a fork from https://github.com/deedubs/es6-plato, but has since been heavily modified.
