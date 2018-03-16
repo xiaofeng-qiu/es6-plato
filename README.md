@@ -155,7 +155,7 @@ es6-plato -r -d report src
 | 1.0.16      | switch to globby, address Linux line endings                                                     |
 | 1.0.17      | Explicitly add eslint-plugin-react and update the dependencies                                   |
 
-#About
+## About
 This is currently a reimplementation of the older plato, and started as a fork from https://github.com/deedubs/es6-plato, but has since been heavily modified.
 After seeing it was unpublished on npm and also wanting to add more features, I Asked if it [would be alright for me to publish and continue the work.](https://github.com/deedubs/es6-plato/issues/4)
 This project uses eslint, not jshint for default linting.
