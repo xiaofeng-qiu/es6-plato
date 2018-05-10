@@ -111,10 +111,16 @@ Usage : es6-plato [options] -d <output_dir> <input files>
       The output directory
   -r, --recurse
       Recursively search directories
+  -l, --jshint : String
+      Specify a jshintrc file for JSHint linting
   -t, --title : String
       Title of the report
   -D, --date : String
       Time to use as the report date (seconds, > 9999999999 assumed to be ms)
+  -n, --noempty
+      Skips empty lines from line count
+  -e, --eslint : String
+      Specify a eslintrc file for ESLint linting
 ```
 
 **Example**
