@@ -1,7 +1,7 @@
 {
 	"name": "es6-plato",
 	"description": "JavaScript source analysis and visualizer",
-	"version": "1.0.16",
+	"version": "1.0.17",
 	"homepage": "https://github.com/the-simian/es6-plato",
 	"author": {
 		"name": "Jessse Harlin",
@@ -25,12 +25,12 @@
 		"test": "node --harmony ./node_modules/grunt-cli/bin/grunt test"
 	},
 	"devDependencies": {
-		"grunt": "~1.0.1",
+		"grunt": "~1.0.2",
 		"grunt-casper": "0.2.6",
 		"grunt-cli": "^1.2.0",
 		"grunt-contrib-jshint": "~1.1.0",
 		"grunt-contrib-nodeunit": "~1.0.0",
-		"grunt-contrib-uglify": "~3.1.0",
+		"grunt-contrib-uglify": "~3.3.0",
 		"grunt-contrib-watch": "~1.0.0"
 	},
 	"keywords": [
@@ -43,10 +43,11 @@
 		"analyze"
 	],
 	"dependencies": {
-		"eslint": "^4.13.0",
+		"eslint": "4.18.2",
+		"eslint-plugin-react": "7.7.0",
 		"fs-extra": "^4.0.0",
-		"globby": "7.1.1",
-		"lodash": "^4.17.4",
+		"globby": "8.0.1",
+		"lodash": "4.17.9",
 		"posix-getopt": "^1.2.0",
 		"typhonjs-escomplex": "0.0.12"
 	}
