@@ -6,12 +6,27 @@ Based on the older es5 plato, this is a port to `es6` and `eslint`
 #The Report
 ![dank-es6-nugs](https://cloud.githubusercontent.com/assets/954596/18904556/3a81efea-8524-11e6-8588-ad8f5a51b001.PNG)
 
+
+## Start in 3 steps.
+
+1. Install.
+`npm install --save-dev es6-plato`
+
+2. Add.
+```
+"scripts" : {
+    "complexity-report": "./node_modules/.bin/es6-plato -r -d ./report src",
+}
+```
+
+3. Run. 
+`npm run complexity-report`
+
 ## Installation
 
-Install the module with: `npm install --save es6-plato`
+Install the module with: `npm install --save-dev es6-plato`
 
 ## Usage
-
 ### From scripts
 
 ```js
