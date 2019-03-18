@@ -1,7 +1,7 @@
 {
   "name": "es6-plato",
   "description": "JavaScript source analysis and visualizer",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "homepage": "https://github.com/the-simian/es6-plato",
   "author": {
     "name": "Jessse Harlin",
@@ -35,7 +35,7 @@
     "analyze"
   ],
   "dependencies": {
-    "eslint": "4.19.0",
+    "eslint": "5.14.0",
     "eslint-plugin-react": "7.7.0",
     "fs-extra": "7.0.1",
     "globby": "9.0.0",

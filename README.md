@@ -176,7 +176,8 @@ es6-plato -r -d report src
 | 1.0.16      | switch to globby, address Linux line endings                                                     |
 | 1.0.17      | Explicitly add eslint-plugin-react and update the dependencies                                   |
 | 1.0.18      | Offer eslintrc option in cli and update documentation, update dependencies too                   |
-| 1.1.18      | Update the dependencies and remove Grunt, for now since it was insecure dependency               |
+| 1.1.15      | Update the dependencies and remove Grunt, for now since it was insecure dependency               |
+| 1.1.16      | Update eslint to 5.14.0                                                                          |
 
 ## About
 
