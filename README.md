@@ -181,6 +181,7 @@ es6-plato -r -d report src
 | 1.1.16      | Update eslint to 5.14.0                                                                          |
 | 1.2.0       | Update eslint, globby, lodash, typhon-complex and others                                         |
 | 1.2.1       | reverts typhon-complex for now, see issue #95                                                    |
+| 1.2.1       | reverts globby, 10 doesn't by default handle windows slashes                                     |
 
 ## About
 
