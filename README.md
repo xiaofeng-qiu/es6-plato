@@ -178,6 +178,7 @@ es6-plato -r -d report src
 | 1.0.18      | Offer eslintrc option in cli and update documentation, update dependencies too                   |
 | 1.1.15      | Update the dependencies and remove Grunt, for now since it was insecure dependency               |
 | 1.1.16      | Update eslint to 5.14.0                                                                          |
+| 1.2.0       | Update eslint, globby, lodash, typhon-complex and others                                         |
 
 ## About
 
