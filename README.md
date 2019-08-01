@@ -6,13 +6,13 @@ Based on the older es5 plato, this is a port to `es6` and `eslint`
 #The Report
 ![dank-es6-nugs](https://cloud.githubusercontent.com/assets/954596/18904556/3a81efea-8524-11e6-8588-ad8f5a51b001.PNG)
 
-
 ## Start in 3 steps.
 
 1. Install.
-`npm install --save-dev es6-plato`
+   `npm install --save-dev es6-plato`
 
 2. Add.
+
 ```
 "scripts" : {
     "complexity-report": "./node_modules/.bin/es6-plato -r -d ./report src",
@@ -20,13 +20,14 @@ Based on the older es5 plato, this is a port to `es6` and `eslint`
 ```
 
 3. Run.
-`npm run complexity-report`
+   `npm run complexity-report`
 
 ## Installation
 
 Install the module with: `npm install --save-dev es6-plato`
 
 ## Usage
+
 ### From scripts
 
 ```js
@@ -148,15 +149,15 @@ es6-plato -r -d report src
 
 ## Data sources
 
-* Complexity from [typhonjs-escomplex](https://github.com/typhonjs-node-escomplex/typhonjs-escomplex)
-* Lint data from [eslint](http://eslint.org/)
+- Complexity from [typhonjs-escomplex](https://github.com/typhonjs-node-escomplex/typhonjs-escomplex)
+- Lint data from [eslint](http://eslint.org/)
 
 ## Contributors
 
-* [Jesse Harlin](https://github.com/the-simian)
-* [Jarrod Overson](https://github.com/jsoverson)
-* [Craig Davis](https://github.com/there4)
-* [David Linse](https://github.com/davidlinse)
+- [Jesse Harlin](https://github.com/the-simian)
+- [Jarrod Overson](https://github.com/jsoverson)
+- [Craig Davis](https://github.com/there4)
+- [David Linse](https://github.com/davidlinse)
 
 ## Release History
 
@@ -179,6 +180,7 @@ es6-plato -r -d report src
 | 1.1.15      | Update the dependencies and remove Grunt, for now since it was insecure dependency               |
 | 1.1.16      | Update eslint to 5.14.0                                                                          |
 | 1.2.0       | Update eslint, globby, lodash, typhon-complex and others                                         |
+| 1.2.1       | reverts typhon-complex for now, see issue #95                                                    |
 
 ## About
 
