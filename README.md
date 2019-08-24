@@ -145,6 +145,11 @@ Usage : es6-plato [options] -d <output_dir> <input files>
 es6-plato -r -d report src
 ```
 
+> Note for Windows Users:
+ If you are on Windows, you might want to put your glob in quotes if you use a tool such as cygwin, conemu or some other emulator, and you are also targeting files in directories, otherwise the emulator might incorrectly expand the glob before it is handled internally by es6-plato. For instance, if you want to use `/src/**/*.js` and the results are ignoring the root try `'./src/**/*.js'` instead.
+>
+
+
 ![class functions, ya'll](https://cloud.githubusercontent.com/assets/954596/18904476/d1a57302-8523-11e6-85df-b474be8c59a8.PNG)
 
 ## Data sources
@@ -182,7 +187,7 @@ es6-plato -r -d report src
 | 1.2.0       | Update eslint, globby, lodash, typhon-complex and others                                         |
 | 1.2.1       | reverts typhon-complex for now, see issue #95                                                    |
 | 1.2.2       | reverts globby, 10 doesn't by default handle windows slashes                                     |
-| 1.2.3       | updates eslint                                  |
+| 1.2.3       | updates eslint and globby                                  |
 
 ## About
 
