@@ -7,15 +7,15 @@ var cli = require('../lib/cli');
 var info = require('../lib/info');
 
 if (cli.args.v) {
-  info.version();
-  process.exit();
+	info.version();
+	process.exit();
 }
 
 if (cli.args.h) {
-  info.help();
-  process.exit();
+	info.help();
+	process.exit();
 }
 
-cli.exec(function(){
-  console.log('Done!');
+cli.exec(function runPlatoViaCLI(){
+	console.log('Done!');
 });
