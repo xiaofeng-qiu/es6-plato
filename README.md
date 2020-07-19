@@ -188,6 +188,7 @@ es6-plato -r -d report src
 | 1.2.1       | reverts typhon-complex for now, see issue #95                                                    |
 | 1.2.2       | reverts globby, 10 doesn't by default handle windows slashes                                     |
 | 1.2.3       | updates eslint and globby                                  |
+| 1.2.4       | updates lodash                                |
 
 ## About
 
